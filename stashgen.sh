@@ -30,11 +30,6 @@ for module in $modules; do
 done
 
 
-# # for each module in modules, generate a markdown documentation file using pydoc-markdown and move to docs/$pkgname directory
-# # example command: "pydoc-markdown -m stashapi.stashapp --render-toc > stashapp.md"
-
-
-
 # create docs/$pkgname directory if it does not exist
 if [ -d "$DOCPATH/$pkgname" ]; then
     echo "Documentation directory for $pkgname already exists"
